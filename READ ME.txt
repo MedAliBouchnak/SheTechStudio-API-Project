@@ -1,0 +1,19 @@
+*Approach to Difficult Problems:
+
+During the development of this project, I faced several challenging problems that required innovative solutions. 
+Below are some of the major problems I encountered and how I tackled them:
+
+1/Setting up the Backend and Connecting to the Server:
+One of the challenges I faced during this project was setting up the backend and connecting it to the server. To overcome this challenge, I decided to use Express.js as my server-side framework and create RESTful API endpoints to handle data retrieval and manipulation.
+
+I started by installing and setting up the necessary dependencies for the backend using npm. I then created a basic Express.js server with a single endpoint to serve a JSON response. I tested the endpoint using a REST client such as Postman to ensure that the server was working correctly.
+
+After that, I used the provided JSON data and created CRUD functions to manipulate data in the database. I also wrote two additional functions, select_top_by_playtime and select_top_by_players, to filter and retrieve the top games based on playtime and unique players.
+
+2/Connecting the Frontend and Displaying Data:
+
+The next challenge I faced was connecting the frontend to the backend and displaying the data to the user. To achieve this, I used ReactJS and Redux-Toolkit to create a Single Page Application (SPA) that consumes the endpoints exposed by the backend.
+
+I started by creating a basic React application with a few components to display the data from the API. I then connected the frontend to the backend by making API calls using the axios library. I tested the API calls using the browser's developer tools to ensure that the data was being retrieved correctly.
+
+Finally, I added filters to the SPA to allow users to search for games based on genre and platform. I also added authentication to allow users to register their playtime for each game they like
